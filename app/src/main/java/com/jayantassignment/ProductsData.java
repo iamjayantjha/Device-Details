@@ -3,7 +3,7 @@ package com.jayantassignment;
 public class ProductsData {
     String manufacturer, modelName, modelNumber, ram, storage, battery, androidVersion, camera, processor, gpu, sensor, imei;
 
-    public ProductsData(String manufacturer, String modelName, String modelNumber, String ram, String storage, String battery, String androidVersion, String camera, String processor, String gpu, String sensor, String imei) {
+    public ProductsData(String manufacturer, String modelName, String ram, String storage, String battery, String androidVersion, String camera, String processor, String gpu, String sensor, String features, String imei) {
         this.manufacturer = manufacturer;
         this.modelName = modelName;
         this.modelNumber = modelNumber;
